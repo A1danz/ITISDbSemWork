@@ -1,7 +1,7 @@
 create table Role (
   Name varchar,
   Description text,
-  Avatar varchar,
+  Avatar varchar
 );
 
 create table Channel (
