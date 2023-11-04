@@ -20,8 +20,8 @@ create table CallStreams(
 );
 
 create table ChannelUsers(
-  channel_id int,
-  user_id int,
+  channel_id int NOT NULL,
+  user_id int NOT NULL,
   foreign key (channel_id) references channel (id),
   foreign key (user_id) references usr (id)
 );
