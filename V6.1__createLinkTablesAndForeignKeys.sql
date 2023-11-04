@@ -88,6 +88,7 @@ create table ChannelMediaChannels(
   foreign key (added_user) references usr (id)
 );
 
+
 create table VoiceChannelParticipants(
   voiceChannel_id int,
   user_id int,
