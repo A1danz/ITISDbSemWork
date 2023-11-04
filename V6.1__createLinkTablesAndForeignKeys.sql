@@ -90,8 +90,8 @@ create table ChannelMediaChannels(
 
 
 create table VoiceChannelParticipants(
-  voiceChannel_id int,
-  user_id int,
+  voiceChannel_id int NOT NULL,
+  user_id int NOT NULL,
   foreign key (voiceChannel_id) references voicechannel (id),
   foreign key (user_id) references usr (id)
 );
