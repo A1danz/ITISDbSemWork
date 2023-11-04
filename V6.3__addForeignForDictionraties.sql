@@ -21,7 +21,7 @@ ALTER TABLE stream
 
 
 ALTER TABLE usr
-    ADD CONSTRAINT region_foreign_key FOREIGN KEY (region) REFERENCES regiotype(id);
+    ADD CONSTRAINT region_foreign_key FOREIGN KEY (region) REFERENCES regiontype(id);
 
 
 ALTER TABLE calls
