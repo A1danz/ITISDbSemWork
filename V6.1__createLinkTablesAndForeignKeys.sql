@@ -74,8 +74,8 @@ create table ChannelRoles(
 );
 
 create table ChannelStickers (
-  channel_id int,
-  sticker_id int,
+  channel_id int NOT NULL,
+  sticker_id int NOT NULL,
   foreign key (channel_id) references channel (id),
   foreign key (sticker_id) references sticker (id)
 );
