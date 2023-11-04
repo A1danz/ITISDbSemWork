@@ -268,7 +268,7 @@ insert into DeviceType(name) VALUES('Windows');
 insert into DeviceType(name) VALUES('Linux');
 insert into DeviceType(name) VALUES('macOS');
 insert into DeviceType(name) VALUES('Android');
-insert into DeviceType(name) VALUES('iOS');
+insert into DeviceType(name) VALUES('iOS_stable');
 insert into DeviceType(name) VALUES('Browser');
 insert into DeviceType(name) VALUES('Xbox');
 insert into DeviceType(name) VALUES('PlayStation');
