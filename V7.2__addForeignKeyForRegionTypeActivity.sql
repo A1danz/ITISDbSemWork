@@ -1,0 +1,1 @@
+ALTER TABLE activity ADD CONSTRAINT region_foreign_key FOREIGN KEY (region) REFERENCES regiontype (id);
