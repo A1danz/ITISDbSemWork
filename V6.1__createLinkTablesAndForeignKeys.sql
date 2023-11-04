@@ -62,11 +62,11 @@ create table CallParticipants(
 );
 
 create table ChannelRoles(
-  added_user int,
-  added_date timestamp,
-  role_id int,
-  user_id int,
-  channel_id int,
+  added_user int NOT NULL,
+  added_date timestamp NOT NULL,
+  role_id int NOT NULL,
+  user_id int NOT NULL,
+  channel_id int NOT NULL,
   foreign key (user_id) references usr (id),
   foreign key (role_id) references role (id),
   foreign key (channel_id) references channel (id),
