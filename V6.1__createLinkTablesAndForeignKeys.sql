@@ -6,8 +6,8 @@ create table MessageFiles(
 );
 
 create table StreamParticipants(
-  stream_id int,
-  user_id int,
+  stream_id int NOT NULL,
+  user_id int NOT NULL,
   foreign key (stream_id) references stream (id),
   foreign key (user_id) references usr (id)
 );
