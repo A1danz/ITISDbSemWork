@@ -1,0 +1,2 @@
+ALTER TABLE emoji
+  ADD COLUMN message_id INTEGER REFERENCES message(id) NOT NULL;
