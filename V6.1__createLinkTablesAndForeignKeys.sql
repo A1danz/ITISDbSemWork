@@ -1,6 +1,6 @@
 create table MessageFiles(
-  message_id int,
-  file_id int,
+  message_id int NOT NULL,
+  file_id int NOT NULL,
   foreign key (message_id) references message (id),
   foreign key (file_id) references file (id)
 );
