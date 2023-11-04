@@ -34,11 +34,11 @@ create table ConnectedDevices(
 );
 
 create table FriendRequests(
-  sender_id int,
-  recipient_id int,
+  sender_id int NOT NULL,
+  recipient_id int NOT NULL,
   foreign key (sender_id) references usr (id),
   foreign key (recipient_id) references usr (id),
-  request_date timestamp,
+  request_date timestamp NOT NULL,
   request_accepted boolean
 );
 
