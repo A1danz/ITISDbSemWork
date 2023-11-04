@@ -1,0 +1,1 @@
+ALTER TABLE ChannelRoles DROP COLUMN added_user;
