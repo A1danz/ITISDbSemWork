@@ -27,8 +27,8 @@ create table ChannelUsers(
 );
 
 create table ConnectedDevices(
-  device_id int,
-  user_id int,
+  device_id int NOT NULL,
+  user_id int NOT NULL,
   foreign key (device_id) references device (id),
   foreign key (user_id) references usr (id)
 );
