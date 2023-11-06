@@ -1,4 +1,4 @@
-# писят два
+# 
 
 [ссылка на макет](https://miro.com/app/board/uXjVMnfyG6Y=/?share_link_id=530585316120)
 
