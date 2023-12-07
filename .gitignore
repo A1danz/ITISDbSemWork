@@ -1,1 +1,4 @@
 put-your-sql-migrations-here.txt
+.vscode
+.idea
+DS_Store
