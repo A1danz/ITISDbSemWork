@@ -4,8 +4,8 @@ from random import choice, randint
 
 faker = Faker(locale="ru_Ru")
 
-conn = psycopg2.connect(dbname='test', user='postgres',
-                        password='postgres', host='localhost', port="5432")
+conn = psycopg2.connect(dbname='postgres', user='postgres',
+                        password='4950', host='localhost', port="5432")
 cursor = conn.cursor()
 
 def generate_bot():
